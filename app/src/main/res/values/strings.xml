@@ -1,0 +1,203 @@
+<resources>
+    <string name="app_name">Anna University</string>
+    <string name="lblSettings">Settings</string>
+    <string name="lblGeneral">General</string>
+
+    <string name="lblHome">Home</string>
+    <string name="lblNotification">Notification</string>
+    <string name="lblFAQ">FAQ</string>
+    <string name="lblContactUs">Contact Us</string>
+    <string name="lblTermsandConditions">Terms And Conditions</string>
+    <string name="lblAppLanguage">App Language</string>
+    <string name="lblChangePassword">Change Password</string>
+    <string name="lblSaveContactToAvoidSpamCalls">Save Contact To Avoid Spam Calls</string>
+    <string name="lblReportAbug">Report A bug</string>
+    <string name="lblRateUs">Rate Us</string>
+    <string name="lblLogout">Logout</string>
+    <string name="lblFeedback">Feedback</string>
+    <string name="lblCommunication">Communication</string>
+    <string name="lblVoiceMessage">Voice Message</string>
+    <string name="lblScheduleCall">Schedule Call</string>
+    <string name="lblTextMessage">Text Message</string>
+    <string name="lblFromtime">From Time</string>
+    <string name="lblToTime">To Time</string>
+    <string name="ScheduleCall">Schedule Call</string>
+    <string name="lblcolon">:</string>
+    <string name="lblExactFromTime">00:00 PM</string>
+    <string name="lblExactToTime">00:00 PM</string>
+
+    <string name="lblDate1">01-01-2024</string>
+    <string name="lblDate2">02-01-2024</string>
+    <string name="lblDate3">03-01-2024</string>
+    <string name="lblEmergencyVoiceMessages">Emergency voice messages</string>
+    <string name="lblVoiceRecorderTime">00:00 / 03:00</string>
+    <string name="lblAddFile">Add File</string>
+    <string name="lblAudioSound">.................................</string>
+    <string name="lblStartAudioTime">00:00</string>
+    <string name="lblEndAudioTime">01:00</string>
+    <string name="lblSend">Send</string>
+
+    <string name="Do_you_want_send_from_history_underlined_text"><u>Do you want send from history ?</u></string>
+
+    <string name="lblCreateAccount">Create Account</string>
+    
+    <string name="lblMonth">Month</string>
+    <string name="lblHyphen">-</string>
+    <string name="lblAugust">August</string>
+    <string name="lblAdminRemarks">Admin Remarks</string>
+    <string name="lblStatus">Status</string>
+    <string name="lblCompleted">Completed</string>
+    <string name="lblUnit">Unit</string>
+    <string name="lblUnitNo">Unit 2</string>
+    <string name="lblTopic">Topic</string>
+    <string name="lblWhenTheTreesWalked">When the trees walked</string>
+    <string name="lblClose">Close</string>
+    <string name="lblUpdate">Update</string>
+
+    <string name="lblCoursetype">Course</string>
+    <string name="lblCourseHeading">Course Type</string>
+
+    <string name="lblLoginPage">Login Page</string>
+    <string name="lblUsername">Username</string>
+    <string name="lblPassword">Password</string>
+    <string name="lblKeepMeLoggedIn">Keep Me Logged In</string>
+    <string name="lblLogin">Login</string>
+    <string name="lblForgetPassword">Forgot Password</string>
+    
+    
+    
+    <string name="lblParentsMeeting">Parents Meeting</string>
+    <string name="lblDayandDate">Wed 12 Dec 2024</string>
+    <string name="lblTime">12:30 PM</string>
+    <string name="lblMeetingtype">Meeting Type :</string>
+    <string name="lblZoomMeetLink">http://www.schoolchimsZoommeet.com</string>
+    <string name="lblZoomMeet">ZOOM MEET</string>
+
+    <string name="lblLetsConnect">Let\'s Connect</string>
+    <string name="lblWithEachOther"> With Each Other</string>
+    <string name="lblStartPageMessage1">A message is a discrete communication</string>
+    <string name="lblStartPageMessage2">intended by the source comsumption</string>
+    <string name="lblletstart">Let\'s Start</string>
+
+
+
+
+    <string name="lblBioData">Bio-Data</string>
+    <string name="lblBiodataEducation">Education:</string>
+    <string name="lblBiodataHeight">Height:</string>
+    <string name="lblBiodataWeight">Weight:</string>
+    <string name="lblBiodataPersonalDetails">Personal Details</string>
+    <string name="lblBiodataDateOfBirth">Date Of Birth:</string>
+    <string name="lblBiodataAge">Age:</string>
+    <string name="lblBiodataGender">Gender:</string>
+    <string name="lblBiodataAddress">Address:</string>
+    <string name="lblBiodataNationality">Nationality:</string>
+    <string name="lblBiodataOccupation">Occupation:</string>
+    <string name="lblBiodataContactNo">ContactNo:</string>
+
+    <string name="lblBiodataNameValue">Default</string>
+    <string name="lblBiodataEducationValue">Default</string>
+    <string name="lblBiodataHeightValue">Default</string>
+    <string name="lblBiodataWeightValue">Default</string>
+    <string name="lblBiodataDateOfBirthValue">Default</string>
+    <string name="lblBiodataAgeValue">Default</string>
+    <string name="lblBiodataGenderValue">Default</string>
+    <string name="lblBiodataAddressValue">Default</string>
+    <string name="lblBiodataNationalityValue">Default</string>
+    <string name="lblBiodataOccupationValue">Default</string>
+    <string name="lblBiodataContactNoValue">Default</string>
+
+
+
+    <string name="lbltermsandconditions">Terms and Conditions</string>
+<!--    <string name="lblOur">Our </string>-->
+<!--    <string name="lblunderlinetermsandconditions"><u>Terms and Conditions</u></string>-->
+<!--    <string name="lblHavebeen">have been refreshed.</string>-->
+<!--    <string name="lblTocontinueusingapppleasereviewandagreetothem">To continue using our app, please review and agree to them</string>-->
+    <string name="lbltermsandconditinsparagraph">Our Terms and Conditions have been refreshed.To continue using our app, please review and agree to them</string>
+    <string name="lblIhavereadandagreetoTerms">I have read and agree to Terms</string>
+    <string name="lblAgreeandcontinue">Agree and Continue</string>
+
+    <string name="lblTermsOfUse">Terms of Use - SchoolChimes, a product of Voice Snap Services Private Limited </string>
+    <string name="lblReadTerms">Please read these terms of use carefully. By accessing this application and its features, you agree to be bound by these terms of Use, as they may be modified from time to time and posted on this site by Voice Snap Services Private Limited</string>
+
+    <string name="lblgeneralterms">General Terms</string>
+    <string name="lblgeneralTermsOne">(i) School Chimes is School Communication and ERP solution that has been developed by Voice Snap Services Private Limited. The format, design and all aspects of this solution is the sole intellectual property of Voice Snap Services Private Limited</string>
+    <string name="lblgeneralTermstwo">(ii) School Chimes Provides only a platform for Users to transmit messages to the target audience. Voice Snap will not be responsible. In any way for the content transmitted through this platform.</string>
+    <string name="lblgeneralTermsthree">(iii) The Users of Voice Snap by using School Chimes indemnify Voice Snap from liability or cause of action arising from any content transmitted through this platform</string>
+    <string name="lblgeneralTermsfour">(iv) The use of School Chimes by Users/Subscribers is subject to the appropriate laws as applicable and as determined by the laws of the land. The service is offered subject to the operating conditions prescribed by the laws of the land. Hence the service is subject to change, and within the overall compliance of policies and conditions prescribed by them.</string>
+    <string name="lblgeneralTermsfive">(v) School Chimes functionality is entirely dependent on the and Telecom Providers from whom the telephone lines have been procured. Hence Voice Snap shall not be held responsible for the non- performance/partial/faulty performance of the functionalities or all functionalities of the product,at times.</string>
+    <string name="lblgeneralTermssix">(vi) User shall not use School Chimes in any manner that is in contravention with the Laws of the Land</string>
+
+    <string name="lbldeliverypolicy">Delivery Policy</string>
+    <string name="lbldeliverypolicyone">(i) As a SaaS (Software as a Service) product, there may not be a traditional shipping" or "delivery" policy in the same sense as physical goods.</string>
+    <string name="lbldeliverypolicytwo">(ii) At Voice Snap, we deliver our SaaS product through our website, Our software is designed to be Instantly available to customers, with no physical shipping required.</string>
+    <string name="lbldeliverypolicythree">(iii) Once you have completed the sign-up process and made your first payment, you will receive instant access to our software. This includes login credentials and any necessary instructions on how to access our services.</string>
+    <string name="lbldeliverypolicyfour">(iv) Our software is available 24/7 through our website. We make every effort to ensure that our services are available at all times,but we cannot guarantee uninterrupted access due to factors. outside of our control, such as internet connectivity and system failures. We will make every effort. to restore service as soon as possible in the event of any downtime.</string>
+    <string name="lbldeliverypolicyfive">(v) We offer customer support to assist with any technical issues or questions you may have. Our support team is available via phone or mail during our business hours 09.30 am to 06.30 pm IST.</string>
+
+    <string name="lblrefundsandcancellations">Refunds and Cancellations</string>
+    <string name="lblrefundsandcancellationsone">(i) Voice Snap reserves the right, at Its sole discretion, to accept or reject Users/Subscribers at any point in time. It is not liable to provide any explanation or reason to any User/Subscriber in the event of terminating any User/Subscriber account. Voice Snap will refund any with Voice money deposited with Voice Snap after deducting for any usage other</string>
+    <string name="lblrefundsandcancellationstwo">(ii) Voice Snap will not be liable for any third-party transactions made using School Chimes platform services</string>
+
+    <string name="lbldataandsecurity">Data and Security</string>
+    <string name="lbldataandsecurityone">(i) Voice Snap is not aware of the nature and content of the message transmitted to the User and such contents are not monitored by Voice Snap. Any illegal use of the facility, when brought to the notice immediate disconnection of the service.</string>
+    <string name="lbldataandsecuritytwo">(ii) Voice Snap will not disclose the personal data of User to any third party for any other commercial activity or marketing activity without the prior consent of the User</string>
+    <string name="lbldataandsecuritythree">(iii) User agrees that Voice Sпар can send messages regarding new product features, special offers and other promotional information/material to them.</string>
+    <string name="lbldataandsecurityfour">(iv) User can at any time, opt out from receiving such promotional messages from Voice Snap.However this shall not include technical messages related to usage, payment balance, upgrade and bug fix related messages.</string>
+    <string name="lbldataandsecurityfive">(v) Voice Snap operates and offers School Chimes under the relevant laws of the land. If Competent Authorities, duly authorized by law, seek information on usage of the system, the same shall be provided by Voice Snap with or without informing the User</string>
+    <string name="lbldataandsecuritysix">(vi) All contents of the communication kept on Voice Snap servers for a period of 15 days. After this period, the files will be deleted from Voice Snap servers. During this period, User can download the files for their will be reference</string>
+    <string name="lbldataandsecurityseven">(vii) The above time period is subject to change at the sole discretion of Voice Snap without any notice to the User</string>
+    <string name="lbldataandsecurityeight">(viii)  The facility to record the messages, send text messages and media are provided based on the current rules and regulations that govem telecom providers and service providers, in the event, there is a regulatory restriction or orders to stop such facility, the same shall be withdrawn by Volice Snap with/without prior notice.</string>
+    <string name="lbldataandsecuritynine">(ix) Not withstanding the above,Voice Snap reserves the right to withdraw this facility with/without any reason or notice </string>
+    <string name="lbldataandsecurityten">(x) Userwill not hold Voice Snap liable for any partial ort full failure of the recording feature.Technical and Information Access to the User/Subscriber\'s Phone features</string>
+    <string name="lbldataandsecurityeleven"> (xi) School Chimes will access information/data of individual Userthat relate to the provision of service of School Chimes services and proper functioning of the App. App. By using School Chimes, the User by default agrees that such information/data can be accessed and used by School Chimes App for the smooth functioning of the application.</string>
+    <string name="lbldataandsecuritytwelve">(xii) School Chimes will access certain phone features of the User such as Internet and Network Access, Identity and Status and dialer settings for the functioning of this App. School Chimes App will also  access and modify data in User\'s device. User agrees to the allow the School Chimes App to do the same</string>
+
+    <string name="lblindemnification">Indemnification</string>
+    <string name="lblindemnificationone">(i) The Liser indemnifies Voice Snap from any potential losses or damages as a consequence of partial or total non-performance of School Chimes solution </string>
+    <string name="lblindemnificationtwo">(ii) The User indemnifies Voice Snap from any potential loss caused to User by leakage of their data that is a result of hacking or cyber crime Voice Snap infrastructure</string>
+    <string name="lblindemnificationthree">(iii) The User indemnifies Voice Snap against any unlawful use by them of the School Chimes Services</string>
+    <string name="lblindemnificationfour">(iv) The User indemnifies Voice Snap for any discrepancy, fault, or non-fulfillment of any transaction with Payment Gateway Provider systems that is routed through School Chimes App</string>
+    <string name="lblindemnificationfive">(v) The User indemnifies Voice Snap for any leakage or abuse of their data by the Payment Gateway Provider and any or all such claim for damages with regard to the same will be exclusively with the Payment Gateway Service Provider</string>
+    <string name="lblindemnificationsix">(vi) The User accepts and agrees to all terms and conditions imposed by the Payment Gateway Service Provider for creating and operating a Payment Gateway Account. No claim with regard to this shall be entertained by Voice Snap</string>
+    <string name="lblindemnificationseven">(vii) Further purpose of creating a Payment Gateway for User, the following information has to be provided to the Payment Gateway Service Provider for creating a limited KYC</string>
+    <string name="lblindemnificationsevenone">First Name Last Name</string>
+    <string name="lblindemnificationseventwo">Mobile number</string>
+    <string name="lblindemnificationseventhree">Email ID</string>
+    <string name="lblindemnificationsevenfour">Nationality</string>
+
+    <string name="lbltermination">Termination</string>
+    <string name="lblterminationone">(i) The User indemnifies Voice Snap from any potential losses or damages as a consequence of partial or total non-performance of School Chimes solution </string>
+    <string name="lblterminationtwo">(ii) Voice Snap reserves the right to terminate the provision of School Chimes services without notice to any User</string>
+    <string name="lblterminationthree">(iii) On termination, Voice Snap will not have any other liability </string>
+    <string name="lblterminationfour">(iv) The User can opt to terminate their School Chimes Account at any time. On termination, Voice Snap will process the request and stop sending messages Intellectual Property</string>
+
+    <string name="lblallintellectualproperty">All Intellectual Property</string>
+    <string name="lblallintellectualpropertyone">(i) All Intellectual Property and Copyright related to School Chimes are the exclusive property of Voice Snap</string>
+    <string name="lblallintellectualpropertytwo">(ii) User shall not in any manner, copy the format, design, and technical aspects of School Chimes or provide any support to any third party to do the above.</string>
+    <string name="lblallintellectualpropertythree">(iii) The logo and design of the School Chimes App and Voice Snap are the exclusive trademarks of Voice Snap and the same shall not be used or copied by any User/Subscriber</string>
+
+    <string name="lblJurisdiction">Jurisdiction</string>
+    <string name="lblJurisdictionone">The User by usage of School Chimes confirms that the usage of School Chimes and the above terms and conditions shall be subject to the exclusive jurisdiction of the courts of Chennai only.</string>
+
+    <string name="lblContact">Contact</string>
+    <string name="lblContactone">If You have any additional questions about School Chimes Terms of Use or want to make request regarding certain personal information, You are encouraged to contact School Chimes</string>
+    <string name="lblContacttwo">The contact information is:</string>
+    <string name="lblContactthree">Voice Snap Services Pvt Ltd., 2/7,Rajambal Street, T. Nagar, Chennai 600017</string>
+    <string name="lblContactfour">You can also send Your enquiries (including in relation to any grievances to our Grievances Officer) via email to schoolsupport@voicesnap.com</string>
+
+    <string name="lblTCClose">Close</string>
+
+
+
+    <string name="welcome_back">Welcome Back,</string>
+    <string name="Username">Minato Namikaze</string>
+    <string name="hello">Hello,</string>
+    <string name="schoolAddress1">Savyasasy school parent</string>
+    <string name="schoolAddressline1">Savyasasy school chennai-600002</string>
+    <string name="features">Features</string>
+    <string name="MoreFeatures">More Features..</string>
+
+
+</resources>
