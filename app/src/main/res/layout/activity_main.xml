@@ -32,7 +32,7 @@
             >
             <androidx.cardview.widget.CardView
                 android:layout_width="match_parent"
-                android:layout_height="wrap_content"
+                android:layout_height="match_parent"
                 android:layout_gravity="center"
                 android:layout_marginStart="@dimen/ten_dp"
                 android:layout_marginEnd="@dimen/ten_dp"
@@ -72,6 +72,7 @@
         >
     </TextView>
     <LinearLayout
+        android:id="@+id/welcome"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/tagline"
@@ -90,6 +91,7 @@
         </TextView>
         <TextView
             android:layout_width="match_parent"
+            android:id="@+id/Name"
             android:text="@string/n_santhosh"
             android:layout_marginStart="@dimen/hundred_eighty_five_dp"
             android:textColor="@color/white"
@@ -97,12 +99,93 @@
             android:textSize="@dimen/twenty_five_sp"
             android:fontFamily="@font/courgette_regular"
             android:layout_height="wrap_content">
-
         </TextView>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/Upcoming"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/welcome"
+        android:layout_marginTop="@dimen/thirty_five_dp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <TextView
+                android:layout_marginStart="@dimen/twenty_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/upcoming_events"
+                android:textStyle="bold"
+                android:layout_weight="0.2"
+                android:textSize="@dimen/sixteen_sp"
+                >
+            </TextView>
+            <TextView
+                android:layout_weight="0.8"
+                android:textStyle="bold"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/view_all"
+                >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            >
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/UpcomingRC"
+                android:layout_marginTop="@dimen/ten_dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+            </androidx.recyclerview.widget.RecyclerView>
+            <LinearLayout
+                android:id="@+id/dotIndicatorLayout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center"
+                android:layout_gravity="center"
+                android:padding="2dp" >
+            </LinearLayout>
+
+        </LinearLayout>
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/ImageID"
+        android:layout_below="@+id/Upcoming"
+        android:layout_width="match_parent"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/EventImage_RC"
+            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:id="@+id/ImagedotIndicatorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="2dp" >
+        </LinearLayout>
 
     </LinearLayout>
 
 
+<!--background image-->
         <LinearLayout
             android:layout_below="@+id/dashboard1"
             android:layout_width="match_parent"

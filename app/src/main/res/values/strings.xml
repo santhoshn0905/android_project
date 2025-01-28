@@ -201,6 +201,12 @@
     <string name="app_name1">App Name</string>
     <string name="let_s_connect_together">Let\'s Connect Together</string>
     <string name="n_santhosh">N Santhosh</string>
+    <string name="upcoming_events">Upcoming Events</string>
+    <string name="view_all">View All</string>
+    <string name="sep">Sep</string>
+    <string name="_25">25</string>
+    <string name="default_today_meeting">Default today meeting</string>
+    <string name="default_guest_name">Default_guest_name</string>
 
 
 </resources>
