@@ -21,18 +21,22 @@ import java.util.List;
 public class MainActivity extends AppCompatActivity {
     private Handler eventAutoScrollHandler;
     private Handler imageAutoScrollHandler;
+    private Handler adsAutoScrollHandler;
 
     private RecyclerView upcomingEventsRecyclerView;
     private RecyclerView eventImagesRecyclerView;
+    private RecyclerView adsRecyclerView;
 
     private LinearLayoutManager eventLayoutManager;
     private LinearLayoutManager imageLayoutManager;
-
+    private LinearLayoutManager adsLayoutManager;
     private Runnable eventAutoScrollRunnable;
     private Runnable imageAutoScrollRunnable;
+    private Runnable adsAutoScrollRunnable;
 
     private int eventCurrentPosition = 0;
     private int imageCurrentPosition = 0;
+    private int adsCurrentPosition = 0;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -48,6 +52,41 @@ public class MainActivity extends AppCompatActivity {
 
         // Initialize RecyclerView for Event Images
         setupEventImagesRecyclerView();
+
+        // Initialize RecyclerView for Ads
+        setupAdsRecyclerView();
+    }
+    private void setupAdsRecyclerView() {
+        adsRecyclerView = findViewById(R.id.Ads_RC);
+        LinearLayout adsdotIndicatorLayout = findViewById(R.id.AdsdotIndicatorLayout);
+
+        // Create the list of event images
+        List<EventImage_RC_Data> eventImages = new ArrayList<>();
+        eventImages.add(new EventImage_RC_Data(R.drawable.ad1));
+        eventImages.add(new EventImage_RC_Data(R.drawable.ads2));
+        eventImages.add(new EventImage_RC_Data(R.drawable.ads3));
+
+        // Set up RecyclerView adapter and layout manager
+        EventImage_RC_Adapater adapter = new EventImage_RC_Adapater(eventImages, this);
+        adsLayoutManager = new LinearLayoutManager(this, RecyclerView.HORIZONTAL, false);
+        adsRecyclerView.setLayoutManager(adsLayoutManager);
+        adsRecyclerView.setAdapter(adapter);
+
+        // Add dots for the indicator
+        int itemCount = adapter.getItemCount();
+        addDots(adsdotIndicatorLayout, itemCount);
+
+        // Update dot indicator on scroll
+        eventImagesRecyclerView.addOnScrollListener(new RecyclerView.OnScrollListener() {
+            @Override
+            public void onScrolled(@NonNull RecyclerView recyclerView, int dx, int dy) {
+                super.onScrolled(recyclerView, dx, dy);
+                int activePosition = imageLayoutManager.findFirstVisibleItemPosition();
+                updateDots(adsdotIndicatorLayout, activePosition);
+            }
+        });
+
+        setupadsAutoScroll(itemCount);
     }
 
     private void setupUpcomingEventsRecyclerView() {
@@ -116,7 +155,6 @@ public class MainActivity extends AppCompatActivity {
 
         setupImageAutoScroll(itemCount);
     }
-
     // Add dots to the layout
     private void addDots(LinearLayout dotLayout, int count) {
         dotLayout.removeAllViews(); // Clear previous dots if any
@@ -135,6 +173,23 @@ public class MainActivity extends AppCompatActivity {
             TextView dot = (TextView) dotLayout.getChildAt(i);
             dot.setTextColor(i == activePosition ? Color.BLACK : Color.GRAY); // Highlight active dot
         }
+    }
+
+    private void setupadsAutoScroll(int itemCount) {
+        adsAutoScrollHandler = new Handler(Looper.getMainLooper());
+        adsAutoScrollRunnable = new Runnable() {
+            @Override
+            public void run() {
+                if (adsCurrentPosition == itemCount) {
+                    adsCurrentPosition = 0; // Reset to the first item
+                }
+                adsRecyclerView.smoothScrollToPosition(adsCurrentPosition);
+                adsCurrentPosition++;
+                adsAutoScrollHandler.postDelayed(this, 3000); // Delay of 3 seconds
+            }
+        };
+
+        adsAutoScrollHandler.postDelayed(adsAutoScrollRunnable, 3000);
     }
 
     // Setup auto-scroll for Upcoming Events
@@ -181,6 +236,9 @@ public class MainActivity extends AppCompatActivity {
         }
         if (imageAutoScrollHandler != null) {
             imageAutoScrollHandler.removeCallbacks(imageAutoScrollRunnable);
+        }
+        if (adsAutoScrollHandler != null) {
+            adsAutoScrollHandler.removeCallbacks(adsAutoScrollRunnable);
         }
     }
 }

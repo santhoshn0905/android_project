@@ -4,6 +4,7 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent">
+
         <RelativeLayout
             android:id="@+id/dashboard1"
             android:layout_width="match_parent"
@@ -108,7 +109,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@+id/welcome"
-        android:layout_marginTop="@dimen/thirty_five_dp">
+        android:layout_marginTop="@dimen/ten_dp">
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
@@ -141,7 +142,7 @@
             >
             <androidx.recyclerview.widget.RecyclerView
                 android:id="@+id/UpcomingRC"
-                android:layout_marginTop="@dimen/ten_dp"
+                android:layout_marginTop="@dimen/five_dp"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 >
@@ -167,7 +168,7 @@
 
         <androidx.recyclerview.widget.RecyclerView
             android:id="@+id/EventImage_RC"
-            android:layout_marginTop="@dimen/ten_dp"
+            android:layout_marginTop="@dimen/five_dp"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             >
@@ -183,6 +184,153 @@
         </LinearLayout>
 
     </LinearLayout>
+    <LinearLayout
+        android:id="@+id/featureID"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/ImageID"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:weightSum="1"
+            >
+            <TextView
+                android:layout_weight="0.2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/features"
+                android:layout_marginStart="@dimen/fifteen_dp"
+                android:textStyle="bold"
+                android:textSize="@dimen/sixteen_sp"
+                >
+            </TextView>
+            <TextView
+                android:layout_weight="0.8"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/view_all"
+                android:textStyle="bold"
+                android:textSize="@dimen/fourteen_sp"
+                >
+            </TextView>
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:alpha="0.5"
+            android:weightSum="1"
+            android:orientation="horizontal"
+            android:layout_marginStart="@dimen/ten_dp"
+            android:layout_marginEnd="@dimen/ten_dp"
+            android:background="@drawable/feature_gradient_bg_colour"
+            >
+            <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/dashboard_purple_bg_card"
+                android:layout_marginStart="@dimen/ten_dp"
+                android:layout_marginEnd="@dimen/ten_dp"
+                >
+                <ImageView
+                    android:layout_width="@dimen/forty_dp"
+                    android:layout_height="@dimen/forty_dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/meeting">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/meeting"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    >
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.34"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dashboard_purple_bg_card"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/ten_dp"
+                android:layout_marginEnd="@dimen/ten_dp"
+                >
+                <ImageView
+                    android:layout_width="@dimen/forty_dp"
+                    android:layout_height="@dimen/forty_dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/allowance">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/allowance"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    >
+                </TextView>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_weight="0.33"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:background="@drawable/dashboard_purple_bg_card"
+                android:orientation="vertical"
+                android:layout_marginStart="@dimen/ten_dp"
+                android:layout_marginEnd="@dimen/ten_dp"
+                >
+                <ImageView
+                    android:layout_width="@dimen/forty_dp"
+                    android:layout_height="@dimen/forty_dp"
+                    android:layout_gravity="center"
+                    android:src="@drawable/attendance">
+                </ImageView>
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="@string/attendance"
+                    android:textColor="@color/white"
+                    android:gravity="center"
+                    >
+                </TextView>
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+<!--    Ads-->
+    <LinearLayout
+        android:id="@+id/AdsID"
+        android:layout_below="@+id/featureID"
+        android:layout_width="match_parent"
+        android:layout_marginTop="@dimen/five_dp"
+        android:orientation="vertical"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/Ads_RC"
+            android:layout_marginTop="@dimen/five_dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            >
+        </androidx.recyclerview.widget.RecyclerView>
+        <LinearLayout
+            android:id="@+id/AdsdotIndicatorLayout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            android:padding="2dp" >
+        </LinearLayout>
+
+    </LinearLayout>
+
+
 
 
 <!--background image-->

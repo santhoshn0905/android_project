@@ -207,6 +207,9 @@
     <string name="_25">25</string>
     <string name="default_today_meeting">Default today meeting</string>
     <string name="default_guest_name">Default_guest_name</string>
+    <string name="meeting">Meeting</string>
+    <string name="attendance">Attendance</string>
+    <string name="allowance">Allowance</string>
 
 
 </resources>
