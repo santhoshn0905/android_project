@@ -210,6 +210,8 @@
     <string name="meeting">Meeting</string>
     <string name="attendance">Attendance</string>
     <string name="allowance">Allowance</string>
+    <string name="help">Help</string>
+    <string name="setting">Setting</string>
 
 
 </resources>
